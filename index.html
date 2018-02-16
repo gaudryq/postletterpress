@@ -4,12 +4,34 @@
 <head>
 <meta charset="UTF-8">
   <title></title>
+  <link rel="stylesheet" type="text/css" href="./style/screen.css">
 </head>
 <body>
-  <textarea id="content" name="textarea" rows="10" cols="50" ></textarea>
+  
+  
   <div class="poster"></div>
-  <script type="text/javascript" src="./jquery-3.2.1.min.js"></script>
-  <script type="text/javascript" src="./two.min.js"></script>
-  <script type="text/javascript" src="./postletterpress.js"></script>
+  <div class="no-print">
+    <div class="txt" ><p> Typographic elements are created by the digitalisation of letters engraved by Frans Masereel extracted from internet.Frans Masereel is an artist who has always wanted to diffuse his work by popular ways. Today the most popular way to access his work is the internet in low definition. The paradox is that by infiltrating our lives on several levels, the Internet becomes inapparent. « Post Letter Press »  is a poster generator, which makes this extraction visible by reinforcing the pixel aspect. The fluorescent background refers to vernacular posters reminding the popular side of the diffusion wanted by F.Masereel. The words take all the space of the poster giving an impression of printing with wooden letters but in a numerical way, this all over produce typographical deformations which come to remember the bias of deformation that sometimes causes internet. <br><br>Typographic elements created by the digitalisation of letters engraved by Frans Masereel extracted from internet. Quentin Gaudry<p/></div>
+
+    <textarea  id="content" name="textarea" rows="4" cols="10" >Welcome
+Type
+Something</textarea>
+
+    <button class="boutonprint2" onclick='window.location.reload(false)' >Refresh</button>
+    <button class="boutonprint" onclick="window.print()" >Print</button>
+  </div> 
+ 
+  <script type="text/javascript" src="./js/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="./js/letters.js"></script>
+  <script type="text/javascript" src="./js/postletterpress.js"></script>
+  <script type="text/javascript" src="./js/colorchange.js"></script>
+  
+
 </body>
+
+
+
+
+
+
 </html>
